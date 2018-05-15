@@ -1,0 +1,8 @@
+//package core.io.protocol;
+import "RankPlayer.proto";
+message DseArenaOpt
+{
+	optional int32			type 		= 1;//1数据
+	optional int32			res			= 2;//返回码
+	optional RankPlayerList targetlist 	= 3;//挑战列表
+}

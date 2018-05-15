@@ -1,0 +1,5 @@
+message DceChat
+{
+	optional int32	 	type = 1;//1世界聊天
+	optional string		content = 2;	
+}

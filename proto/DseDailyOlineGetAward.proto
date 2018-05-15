@@ -1,0 +1,5 @@
+message DseDailyOlineGetAward
+{
+	optional int32		res 		= 1;//错误返回码
+	optional int32		boxid 		= 2;//要领取宝箱的id
+}

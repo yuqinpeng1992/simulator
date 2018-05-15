@@ -1,0 +1,6 @@
+//日常活动请求
+message DceDailyActivityOpt
+{
+	optional int32	type 		= 1;//1请求数据 2领取原油 3月签 4等级奖励 5激活式神投资 6式神投资领奖
+	optional int32	param		= 2;//参数
+}

@@ -1,0 +1,6 @@
+//package core.io.protocol;
+message ShopUnit
+{
+	optional int32 shopid	= 1;//商品id
+	optional int32	count	= 2;//购买数量	
+}

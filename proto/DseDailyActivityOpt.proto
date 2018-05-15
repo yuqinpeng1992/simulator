@@ -1,0 +1,26 @@
+message SpiritInvest
+{
+	optional int32				id					= 1; //式神投资id
+	optional int32	    		status				= 2; //状态 //1为可领取,2为已领取
+}
+//日常活动数据
+message DailyActivityData
+{
+	optional int32 foodsupplyid 	= 1;//今日领取补给最大id
+	optional int32 monthsignindex	= 2; //月签已领了第几天
+	optional int32 monthsignstate	= 3; //月签当天领取情况 0:可领取 1:普通领取 2:vip领取
+	repeated int32 levelreward		= 4; //已领取过哪些等级奖励
+	optional bool  isinvest		= 5; //是否已激活式神投资
+	repeated SpiritInvest investdata = 6;//式神投资
+}
+
+
+message DseDailyActivityOpt
+{
+	optional int32	res			= 1;
+	optional int32	type 		= 2;//1请求数据 2领取原油 3月签领奖 4等级奖励 5激活式神投资 6式神投资领奖
+	optional int32	param		= 3;//参数
+	optional DailyActivityData dailyactivitydata = 4;
+}
+
+

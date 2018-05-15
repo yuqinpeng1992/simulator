@@ -1,0 +1,16 @@
+import "MDropList.proto";
+
+enum ItemSourceType
+{
+	ITEM_SOURCE_NORMAL = 0;
+	ITEM_SOURCE_TREASURE_CASE = 1;//宝箱掉落
+	ITEM_SOURCE_GIFT = 2;//礼包
+	ITEM_SOURCE_MULTI_DROP_CASE = 3;//多掉落宝箱
+	ITEM_SOURCE_PICK_GIFT = 4;//自选礼包
+}
+
+message DseItemChange
+{
+	optional MDropList		list = 1;//参照MDropList.proto
+	optional ItemSourceType	source = 2;//获得道具的来源，用于指示显示方式
+}

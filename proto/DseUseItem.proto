@@ -1,0 +1,9 @@
+import "MDropList.proto";
+message DseUseItem
+{
+	optional int32			tid = 1;
+	optional int32			amount = 2;
+	optional int32			code = 3;//结果，0=成功，1=失败
+	optional MDropList      list = 4;//道具变动表
+	optional int32			msgType = 5;
+}

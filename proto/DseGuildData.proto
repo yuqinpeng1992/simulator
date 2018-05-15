@@ -1,0 +1,29 @@
+//package core.io.protocol;
+//公会阴阳寮数据
+message GuildMemberData
+{
+	optional string		uid 	= 1;
+	optional int32		grade	= 2;//阶级
+	optional int32		level	= 3;//等级
+	optional int32		head	= 4;//头像
+	optional string		name	= 5;//名字
+	optional int32		power	= 6;//战力
+}
+
+message DseGuildData
+{
+	optional string id			= 1;
+	optional string name 		= 2;
+	optional int32 level 		= 3;//等级
+	optional int32	contribute 	= 4;//公会贡献
+	optional string	declar 		= 5;//宣言
+	optional string	notify 		= 6;//公会公告
+	optional int32	badge 		= 7;//公会徽章
+	optional int32	applylevel	= 8;//申请者等级限制
+	optional bool	autoapproval = 9;//申请者直接加入
+	repeated GuildMemberData memberlist = 10;//成员列表
+	repeated GuildMemberData applylist	= 11;//申请加入列表
+	optional int32	way = 12;//客户端请求途径
+}
+
+

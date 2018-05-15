@@ -1,0 +1,4 @@
+message DseSwitchFormation
+{
+	optional int32		code = 1;//错误码
+}

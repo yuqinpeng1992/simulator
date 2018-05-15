@@ -1,0 +1,4 @@
+message DceDailyOlineGetAward
+{
+	optional int32	boxid 		= 1;//要领取宝箱的id
+}

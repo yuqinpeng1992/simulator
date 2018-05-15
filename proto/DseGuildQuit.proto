@@ -1,0 +1,5 @@
+//离开公会
+message DseGuildQuit
+{
+	optional int32 res = 1;
+}

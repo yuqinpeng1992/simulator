@@ -1,0 +1,29 @@
+//package core.io.protocol;
+
+import "StageData.proto";
+//章节信息
+message ChapterInfo
+{
+	optional int32 		chapterid = 1;//章节ID
+	optional int32		nextstageid = 2;//通过的最后一关关卡ID
+	optional bool		isaward = 3;//章节奖励是否领取 (精英副本一章一个奖励)
+	repeated ChildInfo 	scenelist = 4;//场景列表
+	optional int32		lastjuniorstageid = 5;//普通副本通过的最后一关id
+}
+
+//场景信息
+message ChildInfo
+{
+	optional int32 sceneid 		= 1;//场景ID 章节id*100+场景ID
+	optional int32 scenestar 	= 2;//场景总星星数
+	optional bool  isaward 		= 3;//场景奖励是否领取(普通副本一个场景一个奖励)
+	repeated StageData stagelist = 4;//本场景关卡数据
+}
+
+message DseStageInfo
+{
+	optional int32	type				= 1;//1普通2精英
+	optional ChapterInfo chapterinfo 	= 2;//章节信息
+}
+
+

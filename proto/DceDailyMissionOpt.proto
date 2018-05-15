@@ -1,0 +1,5 @@
+message DceDailyMissionOpt
+{
+	optional int32	type 		= 1;//1请求数据 2领取任务奖励 3领取活跃奖励 4一键领取
+	optional int32	param		= 2;//任务id或者活跃度领奖ID
+}

@@ -1,0 +1,19 @@
+//package io.core.protocol
+message RankPlayer
+{
+	optional string		uid 	= 1;
+	optional int32		level	= 2;//等级
+	optional int32		head	= 3;//头像
+	optional string		name	= 4;//名字
+	optional int32		rank 	= 6;//排名
+	optional string		guildname	= 7;//公会阴阳寮名字
+	optional int32		param	= 8;//各功能对应进度
+	optional int32		bestskin	= 9;//式神皮肤(竞技场显示最强式神皮肤)
+	optional int32		besetupgrade	= 10;//式神进阶次数
+	repeated int32		skins		= 11;//式神皮肤列表
+}
+message RankPlayerList
+{
+	repeated RankPlayer ranklist = 1;
+	optional int32	selfrank = 2;//自身排名
+}

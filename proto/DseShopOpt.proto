@@ -1,0 +1,12 @@
+//package core.io.protocol;
+
+import "ShopUnit.proto";
+
+message DseShopOpt
+{
+	optional int32	type = 1;//1数据 2购买
+	optional int32	shopid = 2;//商品ID
+	optional int32	count = 3;//购买数量
+	optional int32 	res = 4;//结果
+	repeated ShopUnit buylist = 5;//已购买商品列表
+}

@@ -1,0 +1,28 @@
+//package core.io.protocol;
+
+message BattleSpirits
+{
+	optional string 	id               = 1[default="0"];	//id
+	optional int32      spiritsid        = 2;	//数据表id
+	optional int32      skillid		     = 3;	//普通攻击技能id
+	optional int32      slideskillid	 = 4;	//滑动攻击技能id
+	optional int32      furyskillid   	 = 5;	//怒气技能id
+	optional int32		leaderskillid	 = 6;	//leader技能ID
+	optional int32		talentid		 = 7;	//天赋ID
+	optional int32		upgrade			 = 8;	//进阶次数
+	optional int32		reformed		 = 9;	//转生次数
+	optional int32		skin			 = 10;	//皮肤形象
+	optional int32		hp 				 = 11;	//当前血量
+	optional int32      maxhp            = 12;	//血量上限	
+	optional int32		speed			 = 13;	//速度
+	optional int32		furypoint		 = 14;	//怒气值
+	repeated int32		propertylist	 = 15;	//各种基础属性
+	repeated int32		basepropertylist = 16;  //各种基础属性的基础值
+	repeated int32		buffpropertylist = 17;	//Bufff 加成列表
+	optional int32		slideacctime	 = 18;	//滑动技能累加时间
+	optional int32		vertigotime		 = 19;	//剩余眩晕时间
+	optional int32		shieldtime		 = 20;	//剩余护盾时间
+	optional int32		shieldvalue		 = 21;	//护盾值
+}
+
+

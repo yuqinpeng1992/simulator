@@ -1,0 +1,5 @@
+//公会外交留言
+message DseGuildLeaveMessage
+{
+	optional int32 res = 1;//留言结果
+}

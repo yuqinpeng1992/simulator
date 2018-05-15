@@ -1,0 +1,9 @@
+import "MDropList.proto";
+
+message DseSummon
+{
+	optional int32			id 		= 1;		//卡池ID
+	optional int32			mode 	= 2;		//模式，1=单抽，2=多抽（十连）
+	optional int32			code	= 3;		//错误代码，0为成功
+	optional MDropList		list	= 4;		//掉落列表
+}

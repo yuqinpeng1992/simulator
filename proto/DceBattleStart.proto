@@ -1,0 +1,10 @@
+//package core.io.protocol;
+
+message DceBattleStart
+{
+	optional string		targetID 	= 1;
+	optional int32		type     	= 2;//0测试
+	optional int32		targetRank	= 3;//目标排名
+	optional int32		selfRank	= 4;//自身排名
+}
+

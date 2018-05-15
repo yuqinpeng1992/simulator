@@ -1,0 +1,7 @@
+//玩家信息相关
+message DceSetRole
+{
+	optional int32	type	= 1;//1获取随机名字 2设置名字 3设置头像 4设置时装
+	optional string name	= 2;//名字
+	optional int32	param	= 3;//头像
+}

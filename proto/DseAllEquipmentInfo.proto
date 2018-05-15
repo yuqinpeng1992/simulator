@@ -1,0 +1,6 @@
+import "EquipmentInfo.proto";
+
+message DseAllEquipmentInfo
+{
+	repeated EquipmentInfo		infos = 1;
+}

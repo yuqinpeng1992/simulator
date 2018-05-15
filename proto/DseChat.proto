@@ -1,0 +1,6 @@
+message DseChat
+{
+	optional int32		res		= 1;
+	optional int32	 	type 	= 2;
+	optional string		content = 3;	
+}

@@ -1,0 +1,4 @@
+message DceEquipmentRefine
+{
+	optional string		oid = 1;	//装备唯一ID
+}

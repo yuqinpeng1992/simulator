@@ -1,0 +1,4 @@
+message DceShowSpiritInfo
+{
+	optional int32	msgType = 1;
+}

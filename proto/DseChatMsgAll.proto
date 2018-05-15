@@ -1,0 +1,17 @@
+import "DseChatMsg.proto";
+message BlackContactData
+{
+	optional string uid = 1;
+	optional string name = 2;
+	optional int32	level = 3;
+	optional int32	viplevel = 4;
+	optional int32	power	= 5;
+}
+message DseChatMsgAll
+{
+	optional int32		type		= 1;//1聊天信息 2黑名单
+	repeated DseChatMsg chatmsg 	= 2;//所有聊天信息
+	repeated BlackContactData blacklist = 3;//黑名单
+}
+
+

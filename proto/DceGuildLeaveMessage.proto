@@ -1,0 +1,6 @@
+//公会外交留言
+message DceGuildLeaveMessage
+{
+	optional 	string 	id	= 1;//公户id
+	optional 	string	content	= 2;//留言内容
+}

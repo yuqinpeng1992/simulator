@@ -1,0 +1,6 @@
+//package core.io.protocol;
+
+message DseCombineProto
+{
+	optional int32			res				= 2; // 0:成功 1:失败
+}

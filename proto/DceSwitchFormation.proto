@@ -1,0 +1,6 @@
+message DceSwitchFormation
+{
+	optional int32		pos1 = 1;//交换上阵式神的位置1，必须是合法位置号
+	optional int32		pos2 = 2;//交换上阵式神的位置2，当为合法位置号时表示两上阵式神交换位置，0时表示是未上阵式神替换上阵式神（此时才读取id值）
+	optional int32		tid = 3;//上阵式神配表ID，当pos2有效时不处理此值
+}

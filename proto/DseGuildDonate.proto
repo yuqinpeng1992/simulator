@@ -1,0 +1,7 @@
+//公会捐献
+message DseGuildDonate
+{
+	optional int32	res		= 1;
+	optional int32	type	= 2;//1货币捐献 2材料捐献
+	optional int32	id		= 3;
+}

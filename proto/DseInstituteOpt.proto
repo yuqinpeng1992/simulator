@@ -1,0 +1,27 @@
+//package io.core.protocol
+message InstituteItem
+{
+	optional int32	id	= 1;	//研究ID
+	optional int32	level = 2;	//等级初始0级 解锁后1级
+}
+
+message InstituteList
+{
+	
+	repeated InstituteItem institutelist = 1;//某种类型的所有研究ID数据
+}
+message InstituteData
+{
+	repeated InstituteList allinstitute	= 1;//所有研究
+	optional int32		   instituteid	 = 2;//正在研究ID
+	optional string		   finishtime	 = 3;//结束时间
+	optional int32		   freesec		 = 4;//可免费时间(秒数)
+}
+
+message DseInstituteOpt
+{
+	optional int32	type 		= 1;	//1请求数据 2升级(包含解锁)
+	optional int32	instituteid = 2;	//研究ID
+	optional InstituteData institute = 3;//研究数据
+	optional int32	res			= 4;	//返回码
+}

@@ -1,0 +1,5 @@
+message DceSummon
+{
+	optional int32			id 		= 1;		//卡池ID
+	optional int32			mode 	= 2;		//模式，1=单抽，2=多抽（十连）
+}

@@ -1,0 +1,7 @@
+message DseDailyOlineAwardData
+{
+	optional string     onlinetime  = 1; //在线时长
+	optional int32      times       = 2; //已领取宝箱次数
+	optional int32      awardboxid  = 3; //待领宝箱表id
+	optional int32      luckytimes  = 4; //翻倍宝箱是第几次
+}

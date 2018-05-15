@@ -1,0 +1,8 @@
+import "DceStorageList.proto";
+import "MItem.proto";
+
+message DseStorageList
+{
+	optional StorageType		type = 1;//要显示的背包类型
+	repeated MItem				items = 2;
+}

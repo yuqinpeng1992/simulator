@@ -1,0 +1,5 @@
+message DceCombineSpiritDebris
+{
+	repeated int32	id = 1;		//式神（碎片）ID
+	optional int32  type = 2;	//1 = 普通合成，2 = 一键合成
+}

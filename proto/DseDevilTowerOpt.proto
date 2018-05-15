@@ -1,0 +1,17 @@
+//package core.io.protocol;
+message DevilTowerData
+{
+	optional int32	curlayer = 1;//当前通关层数
+	optional int32	maxlayer = 2;//通关最高层数
+	optional int32  losetimes = 3;//失败次数
+	optional int32  buychallenge = 4;//购买挑战次数
+	optional int32  buyreset	= 5; //购买重置次数
+	optional string sweepstart	= 6; //扫荡开始时间
+}
+
+message DseDevilTowerOpt
+{
+	optional int32	type = 1;//1数据 2重置 3购买挑战 4扫荡 5取消扫荡 6立即结束
+	optional int32	res  = 2;
+	optional DevilTowerData deviltower = 3;//封魔塔数据
+}

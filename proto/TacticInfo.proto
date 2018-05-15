@@ -1,0 +1,17 @@
+//package core.io.protocol;
+
+import "BattleSpirits.proto"; 
+
+message TacticInfo
+{
+	optional string 		uid			 = 1; //用户id
+	optional string			name		 = 2; //名字
+	optional int32			power		 = 3; //战力
+	optional int32			head		 = 4; //头像
+	optional string			leaderid	 = 5[default="0"]; //leader式神ID
+	repeated BattleSpirits	spiritslist	 = 6; //出战式神列表
+	repeated BattleSpirits	reserverspiritslist = 7;	//预备式神列表
+}
+
+
+

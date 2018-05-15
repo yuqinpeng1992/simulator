@@ -1,0 +1,5 @@
+message DseGuildCreate
+{
+	optional	int32	res		= 1;//结果
+}
+

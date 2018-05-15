@@ -1,0 +1,25 @@
+//package core.io.protocol;
+import "MDropList.proto";
+//每日任务数据
+
+message DailyMissionOne
+{
+	optional int32 id 		= 1;	//任务id
+	optional int32 times 	= 2;	//已完成次数
+	optional bool reward 	= 3;	//是否已经领奖
+}
+
+message DailyMissionData
+{
+	repeated DailyMissionOne missionlist = 1;//任务列表
+	optional int32			 activeness	 = 2;//活跃度
+	repeated int32			 activereward = 3;//活跃度已领取奖励
+}
+message DseDailyMissionOpt
+{
+	optional int32	res			= 1;
+	optional int32	type 		= 2;//1请求数据 2领取任务奖励 3领取活跃奖励 4一键领取
+	optional int32	param	= 3;
+	optional MDropList droplist	= 4;//奖励
+	optional DailyMissionData	missiondata = 5;//每日任务数据
+}

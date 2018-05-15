@@ -1,0 +1,6 @@
+message DseSpiritDevelop
+{
+	optional int32			id 		= 1;		//式神ID
+	optional int32			action 	= 2;		//操作，1=转生开始，2=突破，3=进阶，4=觉醒 5转生花钱结束 6转生倒计时结束
+	optional int32			code	= 3;		//错误码
+}

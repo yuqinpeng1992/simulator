@@ -1,0 +1,20 @@
+message DseSingleSpiritInfo
+{
+	optional int32		tid 		= 1;//式神配表ID
+	optional int32		maxhp		= 2;
+	optional int32		attack		= 3;
+	optional int32		defence		= 4;
+	optional int32		speed		= 5;
+	optional bool		isCaptain 	= 6;//是否是队长
+	optional int32		level		= 7;//式神等级
+	optional int32		reformed	= 8;//转生次数
+	optional int32		breakthrough= 9;//突破次数
+	optional int32		upgraded	= 10;//进阶次数
+	optional int32		awakened	= 11;//觉醒次数
+	optional int32		talent		= 12;//天赋ID
+	optional int32		power		= 13;//战斗力
+	optional int32		exp			= 14;//当前经验
+	optional int32		skin		= 15;//当前使用的皮肤
+	repeated int32		skin_unlocked = 16;//可以使用的皮肤列表
+	optional int32		totalexp	= 17;//历史总获得经验
+}

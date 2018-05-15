@@ -1,0 +1,7 @@
+message DceUseItem
+{
+	optional int32			tid = 1;//要使用的道具id
+	optional int32			amount = 2;//要使用的数量
+	optional int32			param = 3;//参数，在预选择宝箱中使用，表示选择的奖励ID
+	optional int32			msgType = 4;
+}

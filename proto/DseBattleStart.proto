@@ -1,0 +1,11 @@
+//package core.io.protocol;
+
+import "BattleInfo.proto";
+
+message DseBattleStart
+{
+	optional string		targetID 	= 1;
+	optional BattleInfo	battleinfo	= 2;//战斗数据
+	optional int32		result		= 3;
+}
+

@@ -1,0 +1,14 @@
+import "EquipmentInfoLite.proto";
+
+message SingleSoldier
+{
+	optional int32					pos = 1;//式神位置
+	optional int32					tid	= 2;//式神配置ID
+	repeated EquipmentInfoLite		equips = 3;//装备简略信息
+}
+
+message DseFormationInfo
+{
+	repeated SingleSoldier 	forms = 1;//式神表
+	optional int32			captain_pos = 2;//队长位置
+}

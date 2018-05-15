@@ -1,0 +1,4 @@
+message DceCombineEquipmentDebris
+{
+	repeated int32	id = 1;		//装备（碎片）配表ID
+}

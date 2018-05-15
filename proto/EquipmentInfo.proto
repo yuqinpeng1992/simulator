@@ -1,0 +1,9 @@
+message EquipmentInfo
+{
+	optional string 	oid			= 1;//装备唯一ID
+	optional int32		tid			= 2;//装备配表ID
+	optional int32		enhanceLevel= 3;//强化等级
+	optional int32		refineLevle = 4;//精炼等级
+	optional int32		pos			= 5;//装备于（阵位）
+	optional int32		prop_value	= 6;//基础属性数值
+}

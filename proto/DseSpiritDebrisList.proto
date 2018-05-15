@@ -1,0 +1,6 @@
+import "MItem.proto";
+
+message DseSpiritDebrisList
+{
+	repeated MItem				items = 1;	//碎片列表
+}

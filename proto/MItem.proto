@@ -1,0 +1,5 @@
+message MItem
+{
+	optional int32			tid = 1;//物品配置ID
+	optional int32			amount = 2;//物品数量
+}

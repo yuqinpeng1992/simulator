@@ -1,0 +1,16 @@
+//package core.io.protocol;
+
+import "BattleAction.proto";
+import "TacticInfo.proto";
+message BattleInfo
+{
+	optional string			battleid	= 1;//战斗ID
+	optional int32			battletype	= 2;//战斗类型 1测试战斗
+	optional TacticInfo		attackTac	= 3;//攻击阵容
+	optional TacticInfo		defendTac	= 4;//防守阵容
+	repeated BattleAction 	actionlist 	= 5;//本次战斗所有攻击
+	optional int32			score		= 6;//攻击方 0输 1险胜 2胜利 3大胜
+	optional bool			isauto		= 7;//进入战斗时玩家是否自动攻击
+}
+
+

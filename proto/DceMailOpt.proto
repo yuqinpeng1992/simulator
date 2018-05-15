@@ -1,0 +1,10 @@
+message DceMailOpt
+{
+	optional int32	type 		= 1;//1请求邮件 2领取 3发邮件 4告知已读
+	optional int32  mailtype 	= 2;//邮件类型
+	optional string	id			= 3;//领奖邮件ID
+	optional string receiver	= 4;//私聊邮件接收者名字
+	optional string receiveruid	= 5;//私聊邮件接收者uid
+	optional string content		= 6;//私聊内容
+}
+

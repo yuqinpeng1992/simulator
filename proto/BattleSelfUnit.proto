@@ -1,0 +1,8 @@
+//package core.io.protocol;
+
+message BattleSelfUnit
+{
+	optional string 	  id        		= 1;//式神ID
+	optional int32		  owneffecttype		= 10;//对己方效果类型
+	optional int32		  owneffectparam 	= 11;//对己效果参数	
+}

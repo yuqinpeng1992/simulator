@@ -1,0 +1,6 @@
+import "DseSingleSpiritInfo.proto";
+
+message DseAllSpiritInfo
+{
+	repeated DseSingleSpiritInfo		soldiers = 1;
+}

@@ -1,0 +1,6 @@
+//装备熔炉消息
+message DceReforgeEquip
+{
+	optional int32		action 	= 1;//操作类型，1=分解装备 2=还原装备
+	repeated string		tid 	= 2;//装备唯一ID
+}

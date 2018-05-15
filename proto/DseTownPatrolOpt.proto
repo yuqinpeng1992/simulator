@@ -1,0 +1,35 @@
+//package io.core.protocol
+import "MDropList.proto";
+
+message TownPatrolInfo
+{
+	optional int32 	pos 			= 1; //现在的位置
+	optional int32 	patrolspells 	= 2; //巡逻符数量
+	optional string	lastrecovertime = 3; //上次恢复时间
+	optional bool  	isbuy 			= 4; //今日是否购买巡逻符
+	repeated int32	slatelist 		= 5; //100块石板事件 0非特殊时间 1猜拳 2招财猫 3锄地 4继续前进1步 5继续前进2步 6神秘道具包
+	optional bool	canguess 		= 6; //可猜拳
+	optional bool	canhoeing 		= 7; //可锄地
+	optional int32	finishtimes		= 8; //完成次数
+	repeated int32	finishreward 	= 9; //已经领取成就奖励的次数
+}
+message TownPatrolOneMove
+{
+	optional int32 		slatenum	= 1; //前进石板数
+	optional int32 		eventtype	= 2; //事件类型
+	optional MDropList 	droplist	= 3; //招财猫和神秘礼包 奖励列表
+	optional MDropList 	farmland	= 4; //锄地奖励列表 type -1代表炸弹
+	optional int32		getgold		= 5; //获得银币数量
+}
+
+message DseTownPatrolOpt
+{
+	optional int32 		type 		= 1; // 1面板数据 2前进 3猜拳 4锄地 5购买巡逻符  6领取成就奖励
+	optional int32 		res 		= 2; //结果
+	optional int32		param		= 3; //参数
+	optional int32 		guessres 	= 4; //-1负 0平 1胜
+	optional MDropList 			optiondroplist 	= 5; //猜拳和锄地结果奖励
+	repeated TownPatrolOneMove 	movelist 		= 6; //前进信息
+	optional TownPatrolInfo 	patrolinfo 		= 7; //面板数据
+}
+

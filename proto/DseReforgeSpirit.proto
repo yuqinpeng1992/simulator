@@ -1,0 +1,9 @@
+//式神熔炉消息
+import "MDropList.proto";
+message DseReforgeSpirit
+{
+	optional int32		action 	= 1;//操作类型，1=还原式神，2=分解式神
+	repeated int32		tid 	= 2;//式神配置ID
+	optional MDropList	list	= 3;//返还的物品列表
+	optional int32		code	= 4;//错误码
+}

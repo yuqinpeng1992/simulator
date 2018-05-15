@@ -1,0 +1,6 @@
+//package core.io.protocol;
+
+message DceCombineProto
+{
+	repeated string			proto_list		= 1; // 协议列表
+}

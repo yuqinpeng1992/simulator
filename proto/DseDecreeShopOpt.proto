@@ -1,0 +1,17 @@
+//package core.io.protocol;
+
+import "ShopUnit.proto";
+message DecreeShop
+{
+	optional int32		freetimes = 1;//剩余免费次数
+	optional string		lastrefreshtime = 2;//免费次数刷新时间
+	optional int32		remainrefreshtimes = 3;//今日剩余可刷新次数
+	repeated ShopUnit	shoplist = 4;//已购买商品列表
+}
+message DseDecreeShopOpt
+{
+	optional int32	type = 1;//1数据 2购买
+	optional int32	index = 2;//商品位置 1-6
+	optional int32 	res = 3;//结果
+	optional DecreeShop decreeshop = 4;//御札商城数据
+}

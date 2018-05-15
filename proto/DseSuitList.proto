@@ -1,0 +1,10 @@
+//package core.io.protocol;
+message SuitData
+{
+	optional int32 suidid = 1;
+}
+
+message DseSuitList
+{
+	repeated SuitData suitlist = 1;//时装列表
+}

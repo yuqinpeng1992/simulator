@@ -1,0 +1,4 @@
+//公会解散
+message DceGuildDismiss
+{
+}

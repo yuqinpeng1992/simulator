@@ -1,0 +1,7 @@
+//package core.io.protocol;
+
+message DceQueryUserInfo
+{
+	optional string  uid = 1;
+}
+

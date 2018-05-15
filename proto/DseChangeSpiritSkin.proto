@@ -1,0 +1,6 @@
+message DseChangeSpiritSkin
+{
+	optional int32	tid 		= 1;//式神ID
+	optional int32	skin_id		= 2;//皮肤ID
+	optional int32	code		= 3;//错误码
+}

@@ -1,0 +1,10 @@
+enum StorageType
+{
+	INVALID_BAG = 0;
+	ITEM_BAG = 1;//道具背包
+}
+
+message DceStorageList
+{
+	optional StorageType		type = 1;//要显示的背包类型
+}

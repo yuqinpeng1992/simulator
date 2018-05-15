@@ -1,0 +1,5 @@
+//申请加入公会
+message DseGuildApplyJoin
+{
+	optional int32	res = 1;
+}

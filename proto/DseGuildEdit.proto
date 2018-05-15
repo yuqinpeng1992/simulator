@@ -1,0 +1,5 @@
+//公会修改宣言 公告 徽章
+message DseGuildEdit
+{
+	optional int32 res			= 1;
+}

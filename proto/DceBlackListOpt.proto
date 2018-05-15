@@ -1,0 +1,5 @@
+message DceBlackListOpt
+{
+	optional int32 type = 1;//1加入 2移除
+	optional string uid	= 2;
+}

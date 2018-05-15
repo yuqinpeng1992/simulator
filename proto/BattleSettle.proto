@@ -1,0 +1,10 @@
+//package core.io.protocol;
+import "MDropList.proto";
+message BattleSettle
+{
+	optional int32 star = 1;
+	optional int32 gold = 2;
+	optional int32 exp = 3;
+	optional bool  firstpass = 4;
+	optional MDropList droplist = 5;
+}
