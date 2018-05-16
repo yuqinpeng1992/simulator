@@ -1,6 +1,0 @@
-//公会捐献
-message DceGuildDonate
-{
-	optional int32	type	= 1;//1货币捐献 2材料捐献
-	optional int32	id		= 2;
-}

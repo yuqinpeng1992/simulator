@@ -1,6 +1,0 @@
-import "DseSingleSpiritInfo.proto";
-
-message DseUpdateSpiritInfo
-{
-	repeated DseSingleSpiritInfo		soldiers = 1;
-}

@@ -1,6 +1,0 @@
-message DseEquipmentGearUp 
-{
-	optional string		oid = 1;	//装备唯一ID
-	optional int32		pos = 2;	//装备到阵型位置（1-7）
-	optional int32		code = 3;	//错误码
-}

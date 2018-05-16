@@ -1,6 +1,0 @@
-//package core.io.protocol;
-message DceDecreeShopOpt
-{
-	optional int32	type = 1;//1数据 2刷新 3购买
-	optional int32	index = 2;//商品位置 1-6
-}

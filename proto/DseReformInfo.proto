@@ -1,7 +1,0 @@
-message DseReformInfo
-{
-	optional int32	spiritid = 1;
-	optional string	endtime	= 2;
-	optional int32	interval = 3;//提前结束消耗勾玉单位时间间隔
-	optional int32  costnum = 4;//提前结束单位时间间隔消耗勾玉数
-}

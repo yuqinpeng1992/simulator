@@ -1,5 +1,0 @@
-message DseCombineEquipmentDebris
-{
-	repeated int32		id = 1;	//合成的装备（碎片）配表ID
-	optional int32		code = 2;//错误码
-}

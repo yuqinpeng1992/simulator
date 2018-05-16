@@ -1,8 +1,0 @@
-//创建公会
-message DceGuildCreate
-{
-	optional 	string 	name	= 1;//公会名字
-	optional 	int32	badge	= 2;//公会徽章
-	optional 	bool	autoapproval	= 3;//是否可直接加入
-	optional 	string	declaration		= 4;//宣言
-}

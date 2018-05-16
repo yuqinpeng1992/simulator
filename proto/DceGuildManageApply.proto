@@ -1,6 +1,0 @@
-//处理公会加入申请
-message DceGuildManageApply
-{
-	optional string		uid	= 1;//申请加入公会的uid
-	optional int32		agree = 2;//true同意false拒绝
-}

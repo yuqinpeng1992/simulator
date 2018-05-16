@@ -1,6 +1,0 @@
-//package io.core.protocol
-message DceInstituteOpt
-{
-	optional int32	type 		= 1;	//1请求数据 2升级(包含解锁)
-	optional int32	instituteid = 2;	//研究IDd
-}

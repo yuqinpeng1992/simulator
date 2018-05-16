@@ -1,8 +1,0 @@
-//package core.io.protocol;
-
-message DceStageAward
-{
-	optional int32	type			= 1;//1普通2精英
-	optional int32 	chapterid	 	= 2;//章节ID
-	optional int32	sceneid			= 3;//场景ID
-}

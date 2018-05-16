@@ -1,5 +1,0 @@
-//申请加入公会
-message DceGuildApplyJoin
-{
-	optional string		guildid	= 1;//申请加入公会的id
-}

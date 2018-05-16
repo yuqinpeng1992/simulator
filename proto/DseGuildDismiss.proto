@@ -1,5 +1,0 @@
-//公会解散
-message DseGuildDismiss
-{
-	optional int32 res = 1;
-}

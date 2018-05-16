@@ -1,7 +1,0 @@
-//package io.core.protocol
-
-message DceRankList
-{
-	optional int32	type 			= 1;	//1演武场
-}
-

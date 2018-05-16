@@ -1,6 +1,0 @@
-//公会调整阶级
-message DceGuildAdjustGrade
-{
-	optional string uid = 1;//目标uid
-	optional int32	grade = 2;//要调整的阶级
-}

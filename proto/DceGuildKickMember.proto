@@ -1,5 +1,0 @@
-//公会踢人
-message DceGuildKickMember
-{
-	optional string uid		= 1;//被踢uid
-}

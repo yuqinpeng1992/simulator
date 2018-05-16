@@ -1,5 +1,0 @@
-//package core.io.protocol;
-message DceDevilTowerOpt
-{
-	optional int32	type = 1;//1重置 2购买 3扫荡 4取消扫荡 5立即结束
-}

@@ -1,6 +1,0 @@
-message DseCombineSpiritDebris
-{
-	repeated int32		id = 1;	//合成的式神（碎片）ID
-	optional int32		code = 2;//错误码
-	optional int32  	type = 3;	//1 = 普通合成，2 = 一键合成
-}

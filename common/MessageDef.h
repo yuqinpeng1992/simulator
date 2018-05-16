@@ -1,6 +1,6 @@
 #ifndef _MESSAGEDEF_H_
 #define _MESSAGEDEF_H_
-//è¯¥æ–‡ä»¶ä¸ºä½¿ç”¨å·¥å…·è‡ªåŠ¨ç”Ÿæˆï¼Œè¯·ä¸è¦åœ¨æ–‡ä»¶ä¸­ä¿®æ”¹ï¼Œå¦‚éœ€è¦ä¿®æ”¹ï¼Œè¯·ä¸sskylinè”ç³»ã€‚
+//¸ÃÎÄ¼şÎªÊ¹ÓÃ¹¤¾ß×Ô¶¯Éú³É£¬Çë²»ÒªÔÚÎÄ¼şÖĞĞŞ¸Ä£¬ÈçĞèÒªĞŞ¸Ä£¬ÇëÓësskylinÁªÏµ¡£
 enum S2C_EVENT
 {
 	S2C_EVENT_BASE = 511,
@@ -74,6 +74,7 @@ enum S2C_EVENT
 	S2C_DseDailyOlineGetAward,		//DseDailyOlineGetAward
 	S2C_DseGuildLeaveMessage,		//DseGuildLeaveMessage
 	S2C_DseGuildData,		//DseGuildData
+	S2C_DseGuildList,		//DseGuildList
 };
 enum C2S_EVENT
 {
@@ -139,5 +140,6 @@ enum C2S_EVENT
 	C2S_DceDailyOlineGetAward,		//DceDailyOlineGetAward
 	C2S_DceGuildLeaveMessage,		//DceGuildLeaveMessage
 	C2S_DceGuildData,		//DceGuildData
+	C2S_DceGuildList,		//DceGuildList
 };
 #endif

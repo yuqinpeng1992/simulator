@@ -1,5 +1,0 @@
-//package io.core.protocol
-message DceDugeonOpt
-{
-	optional int32	type 		= 1;	//1请求数据
-}

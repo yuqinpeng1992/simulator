@@ -139,6 +139,8 @@ MessageID = {
 580 : "DseGuildLeaveMessage",
 "DseGuildData" : 581,
 581 : "DseGuildData",
+"DseGuildList" : 582,
+582 : "DseGuildList",
 "DceBattleStart" : 2048,
 2048 : "DceBattleStart",
 "DceCombineProto" : 2049,
@@ -261,4 +263,6 @@ MessageID = {
 2107 : "DceGuildLeaveMessage",
 "DceGuildData" : 2108,
 2108 : "DceGuildData",
+"DceGuildList" : 2109,
+2109 : "DceGuildList",
 }

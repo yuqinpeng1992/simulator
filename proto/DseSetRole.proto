@@ -1,7 +1,0 @@
-//玩家信息相关
-message DseSetRole
-{
-	optional int32	res		= 1;
-	optional int32	type	= 2;//1获取随机名字 2设置名字 3设置头像
-	repeated string	namelist	= 3;//推荐名字
-}

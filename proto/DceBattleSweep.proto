@@ -1,9 +1,0 @@
-//package core.io.protocol;
-
-message DceBattleSweep
-{
-	optional string		targetID 	= 1;
-	optional int32		type     	= 2;//0测试1普通副本2精英副本4试炼地下城
-	optional int32		times		= 3;//扫荡次数
-}
-

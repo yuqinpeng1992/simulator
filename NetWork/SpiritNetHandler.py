@@ -7,6 +7,7 @@ from NetWork.websocket_client import WebSocketClient
 from common.Message import MessageID
 from google.protobuf import symbol_database as _symbol_database
 from google.protobuf import text_format
+from common.Config import *
 
 _sym_db = _symbol_database.Default()
 
@@ -77,7 +78,7 @@ class SpiritNethandler(NetHandler):
         self.connect();
 
     def requestLogin(self):
-        data = "gl,yuqinpeng1_1,861107584555586"
+        data = "gl," + loginaccount + "_" + str(region) + ",861107584555586"
         self.sendString(data)
 
     def getloginstatus(self):

@@ -1,5 +1,0 @@
-//公会踢人
-message DseGuildKickMember
-{
-	optional int32	res = 1;
-}

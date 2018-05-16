@@ -1,7 +1,0 @@
-//公会更改加入限制
-message DseGuildChangeApplyRule
-{
-	optional int32	res		= 1;
-	optional int32	type	= 2;//1更改自动还是被动加入 2更改加入等级限制
-	optional int32	param	= 3;//1代表自动加入 0被动加入 或者玩家等级
-}

@@ -1,5 +1,0 @@
-//公会调整阶级
-message DseGuildAdjustGrade
-{
-	optional int32 res = 1;
-}

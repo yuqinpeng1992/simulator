@@ -1,6 +1,0 @@
-//package core.io.protocol;
-//公会阴阳寮数据
-message DceGuildData
-{
-	optional int32	way = 1;//客户端请求途径
-}

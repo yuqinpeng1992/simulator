@@ -1,6 +1,0 @@
-//式神熔炉消息
-message DceReforgeSpirit
-{
-	optional int32		action 	= 1;//操作类型，1=还原式神，2=分解式神
-	repeated int32		tid 	= 2;//式神配置ID	
-}

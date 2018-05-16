@@ -1,5 +1,0 @@
-//处理公会加入申请
-message DseGuildManageApply
-{
-	optional int32		res = 1;
-}

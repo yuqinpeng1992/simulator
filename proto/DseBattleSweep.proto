@@ -1,9 +1,0 @@
-//package core.io.protocol;
-import "BattleSettle.proto";
-message DseBattleSweep
-{
-	optional int32		res			= 1;//结果
-	optional string		targetID 	= 2;
-	optional int32		type     	= 3;//0测试1普通副本2精英副本
-	repeated BattleSettle   BattleSettle    = 4;//结算信息
-}

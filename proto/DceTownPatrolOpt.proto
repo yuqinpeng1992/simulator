@@ -1,8 +1,0 @@
-//package io.core.protocol
-
-message DceTownPatrolOpt
-{
-	optional int32 type = 1; // 1面板数据 2前进 3猜拳 4锄地 5购买巡逻符  6领取成就奖励
-	optional int32 param = 2;//猜拳(1剪刀 2石头 3布) 成就奖励代表次数
-	repeated int32 hoepos = 3;//玩家锄地列表 编号
-}

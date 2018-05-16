@@ -1,4 +1,0 @@
-//离开公会
-message DceGuildQuit
-{
-}

@@ -1,7 +1,0 @@
-//package core.io.protocol;
-
-message DceStageInfo
-{
-	optional int32	type			= 1;//1普通2精英
-	optional int32 	chapterid	 	= 2;//请求的章节ID 进入副本发0(精英和普通)
-}

@@ -1,8 +1,0 @@
-//package core.io.protocol;
-
-message DceStageReset
-{
-	optional int32		stageid		= 1;//关卡id
-	optional int32		type     	= 2;//1普通副本
-}
-

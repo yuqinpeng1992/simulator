@@ -1,4 +1,0 @@
-message DceResetLeader
-{
-	optional int32		pos = 1;//设为队长的式神位置号
-}

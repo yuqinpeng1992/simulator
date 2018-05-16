@@ -1,5 +1,0 @@
-//package core.io.protocol;
-//请求时装列表
-message DceSuitList
-{
-}

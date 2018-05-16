@@ -1,7 +1,0 @@
-//package core.io.protocol;
-import "StageData.proto";
-message DseUpdateStage
-{
-	optional int32	   type = 1;//1普通副本更新关卡 2精英副本
-	repeated StageData stagelist = 2;
-}

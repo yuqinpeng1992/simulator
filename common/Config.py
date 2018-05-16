@@ -6,6 +6,8 @@ loginurl = {
     'yuqinpeng' : 'ws://192.168.2.144:243/'
 }
 servername = 'yuqinpeng'
+loginaccount = 'yuqinpeng'
+region = 1
 
 
 

@@ -1,7 +1,0 @@
-//package core.io.protocol;
-message DceShopOpt
-{
-	optional int32	type = 1;//1数据 2购买
-	optional int32	shopid = 2;//商品id
-	optional int32	count = 3;//购买数量
-}

@@ -1,8 +1,0 @@
-//package core.io.protocol;
-message StageData
-{
-	optional int32 stageid		= 1;//关卡id
-	optional int32 star			= 2;//星数
-	optional int32 todaytimes	= 3;//今日挑战次数
-	optional int32 todaybuy		= 4;//今日购买次数
-}

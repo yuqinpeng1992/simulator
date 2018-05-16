@@ -1,4 +1,0 @@
-message DceShowSingleSpiritInfo
-{
-	optional string		id	= 1;//切换显示的式神唯一ID
-}
